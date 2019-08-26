@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt", "jwt\jwt.csproj", "{FB1FD70D-6927-4D97-A8BF-99440A3FAC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jwt.Api", "jwt\Jwt.Api.csproj", "{FB1FD70D-6927-4D97-A8BF-99440A3FAC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jwt.Client1", "Jwt.Client1\Jwt.Client1.csproj", "{62636568-3498-4E63-9775-36CEF817CC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jwt.AngularClient", "Jwt.AngularClient\Jwt.AngularClient.csproj", "{9B923BBB-1B85-43E9-870A-06AAA879E7A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FB1FD70D-6927-4D97-A8BF-99440A3FAC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB1FD70D-6927-4D97-A8BF-99440A3FAC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB1FD70D-6927-4D97-A8BF-99440A3FAC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62636568-3498-4E63-9775-36CEF817CC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62636568-3498-4E63-9775-36CEF817CC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62636568-3498-4E63-9775-36CEF817CC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62636568-3498-4E63-9775-36CEF817CC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B923BBB-1B85-43E9-870A-06AAA879E7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B923BBB-1B85-43E9-870A-06AAA879E7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B923BBB-1B85-43E9-870A-06AAA879E7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B923BBB-1B85-43E9-870A-06AAA879E7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

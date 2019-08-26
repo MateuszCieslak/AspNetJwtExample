@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace jwt.Models
+namespace Jwt.Api.Models
 {
     public class User
     {
